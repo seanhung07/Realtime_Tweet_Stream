@@ -1,0 +1,22 @@
+{
+  "name": "sentiment_twitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index",
+    "dev": "nodemon server/index"
+  },
+  "author": "Sean",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "emoji-strip": "^1.0.1",
+    "express": "^4.17.2",
+    "got": "^12.0.1",
+    "langdetect": "^0.2.1",
+    "needle": "^3.0.0",
+    "oauth-1.0a": "^2.2.6",
+    "socket.io": "^4.4.1"
+  }
+}
